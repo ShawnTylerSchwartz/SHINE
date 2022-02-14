@@ -66,10 +66,10 @@ function images = SHINE(images,templ)
 % Specify the image format and the input/output directories here if SHINE  
 % is called without input or output arguments:
 
-imformat = 'tif';
-input_folder = fullfile(matlabroot,'work','SHINEtoolbox','SHINE_INPUT');
-output_folder = fullfile(matlabroot,'work','SHINEtoolbox','SHINE_OUTPUT');
-template_folder = fullfile(matlabroot,'work','SHINEtoolbox','SHINE_TEMPLATE');
+imformat = 'png';
+input_folder = fullfile(pwd,'SHINE_INPUT');
+output_folder = fullfile(pwd,'SHINE_OUTPUT');
+template_folder = fullfile(pwd,'SHINE_TEMPLATE');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % If desired, the default values can be changed here:
