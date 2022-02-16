@@ -66,7 +66,7 @@ function images = SHINE(images,templ)
 % Specify the image format and the input/output directories here if SHINE  
 % is called without input or output arguments:
 
-imformat = 'png';
+imformat = 'jpg';
 input_folder = fullfile(pwd,'SHINE_INPUT');
 output_folder = fullfile(pwd,'SHINE_OUTPUT');
 template_folder = fullfile(pwd,'SHINE_TEMPLATE');
